@@ -1,0 +1,360 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[10pt]{res} 
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\newsectionwidth{0pt}  % So the text is not indented under section headings
+\usepackage{fancyhdr}  % use this package to get a 2 line header
+\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
+\setlength{\headheight}{24pt} % allow room for 2-line header
+\setlength{\headsep}{24pt}  % space between header and text
+\setlength{\headheight}{24pt} % allow room for 2-line header
+\pagestyle{fancy}     % set pagestyle for document
+%\rhead{ {\it D. Agarwal}\\{\it p. \thepage} } % put text in header (right side)
+\cfoot{}                                     % the foot is empty
+\topmargin=-1.2in % start text higher on the page
+\begin{document}
+\thispagestyle{empty} % this page has no header  
+%\name{DEVENDRA AGARWAL\\[11pt]}% the \\[12pt] adds a blank line after name
+\textbf{{\Large Devendra Agarwal}}\\
+\hrule
+Junior Undergraduate \hfill Email  :\hspace{7.5mm} devag@iitk.ac.in\\
+Computer science and Engineering \hfill : deve1705@gmail.com\\
+IIT Kanpur \hfill Mobile :\hspace{9mm} 91 90058 07283\\
+\hrule
+\begin{resume}
+
+\begin{section}{\underline{EDUCATION QUALIFICATIONS}}
+\vspace{.2in}
+%\begin{table}[htbp]
+    \begin{tabular}{|l|l|l|l|}
+    \hline
+    \hspace{7mm}\bf{Year}\hspace{7mm} &  \hspace{5mm}\bf{Degree}\hspace{5mm} &  \hspace{15mm}\bf{Institution(Board)}\hspace{15mm} & \hspace{3mm}\bf{CGPA/\%}\hspace{3mm} \\[1ex] 
+    \hline
+    \hspace{1mm}2015(expected)\hspace{1mm} &  \hspace{4mm}BTech(CSE)\hspace{4mm}  & \hspace{4mm}Indian Institute of Technology, Kanpur\hspace{4mm} &\hspace{4mm} 8.7/10.0\hspace{4mm}\\[1ex] 
+    \hline
+    \hspace{9mm}2011\hspace{9mm} & \hspace{8mm}XII\hspace{8mm} & \hspace{1mm}Sudhir Memorial Institute,Kolkata(CBSE)\hspace{1mm} & \hspace{9mm}86\%\hspace{9mm}\\[1ex] 
+    \hline
+    \hspace{9mm}2009\hspace{9mm} &  \hspace{8mm}X\hspace{8mm} & \hspace{9mm}St. Dominic Savio School(ICSE)\hspace{9mm} & \hspace{9mm}89\%\hspace{9mm}\\ [1ex]
+    \hline
+    \end{tabular}
+%\end{table}
+\end{section}
+
+\begin{section}{\underline{Area of Interest}}
+Analysis and Design of Algorithms, Combinatorics.\newline
+Interested in problem solving.\newline
+\end{section}
+
+\begin{section}{\underline{SCHOLASTIC ACHIEVEMENTS}}
+\vspace{.2in}
+\begin{itemize}
+\item{
+Achieved Rank 529 in Facebook HackerCup Round 1 2013.
+}
+\item{
+Honorable Mention in ACM ICPC Regionals 2012 and 2013, Kanpur Zone.
+}
+\item{
+Achieved Rank 11 in Kanpur Regionals of ACM ICPC onsite round held on 12-13 December 2012.
+}
+\item{
+Achieved Rank 8 in Kanpur Regionals of ACM ICPC onsite round held on 12-13 December 2013.
+}
+\item{
+Technical Assistant for the course Data Struture and Algorithms in IIT Kanpur.
+}
+\item{
+Secured A* (exceptional performance) grade in the following courses of B.Tech till now:
+\begin{itemize}
+\item{
+Mathematics-I
+}
+\item{
+Probability and Statistics
+}
+\item{
+Mathematics in Computer Science-I
+}
+\end{itemize}
+}
+\item{Achieved an All India Rank 315 in IIT-Joint Entrance Examination 2011 amongst 5 lakh candidates.
+}
+\end{itemize}
+\end{section}
+
+
+
+\begin{section}{\underline{KEY ACADEMIC PROJECTS}}
+\vspace{0.2in}
+{\bf Definite and Indefinite Summation of Hypergeometric Series}\\
+\vspace{0.1in}
+\textit{Summer Project under Prof. Satyadev NandaKumar\hfill May'13-June'13}
+\vspace{0.1in}
+\begin{itemize}
+\item{
+Studied and Implemented Gosper's Algorithm which either returns indefinte summation of hypergeometric series if it exists otherwise tells us that the closed form does not exists.Implementation was done in Mathematica 9.
+}
+\item{
+Studied Sister Celine's Algorithm which gives definite summation of proper hypergeometric series.
+}
+\item{
+Studied and Implemented Zeilberger's Algorithm which gives definite summation of proper hypergeometric series.This Algorithm is more efficient than Sister Celine's Algorithm in computing the definite summation of the series.Implementation was done in Mathematica 9.
+}
+\end{itemize}
+{\bf Implemented Temporal Database}
+\vspace{0.1in}
+\textit{Course Project: Compiler Design, guided by Prof. Arnab Bhattacharya\hfill April'14}
+\vspace{0.1in}
+\begin{itemize}
+\item{
+Built an income tax system.
+}
+\item{
+It is possible that a person can tell it’s wrong salary at some time , then when we get to know his correct salary , we update our database without losing the value which we already had in the database. This database can be used to track persons who tell most lies, track in-come tax paid by the person and many more interesting things.
+}
+\end{itemize}
+
+{\bf C to MIPS Compiler}\\
+\vspace{0.1in}
+\textit{Course Project: Compiler Design, guided by Prof. Shubhajit Roy\hfill March'14-April'14}
+\vspace{0.1in}
+\begin{itemize}
+\item{
+Implemented a compiler for C using C, LEX and YACC.
+}
+\item{
+Supports data structures like Integers, Char, Arrays (upto 2 dimentions), Pointers, Structures.
+}
+\item{
+Implemented iterations, loops, and conditional statements..
+}
+\item{
+Inplemented recursive function calls and variable scoping.
+}
+\item{
+Implemented iterations, loops, conditional statements, recursive function calls and variable scoping.
+}
+\end{itemize}
+{\bf Extension of NachOS}\\
+%\vspace{0.1in}
+\textit{Group Course Project under Prof. Mainak Chaudhuri \hfill Aug-Dec 2013}
+\vspace{0.1in}
+\begin{itemize}
+\item{
+Upgraded the basic NachOS Operating system to a full blown operating system
+}
+\item{
+Multi-programming execution environment using fork and exec system calls.
+}
+\item{
+Implemented System calls like Fork, Join, Sleep, Exit.
+}
+\item{
+Process Scheduling: OS scheduler using a mix of FCFS, RR and SJF to optimize turnaround time, waiting time and response time.
+}
+\item{
+Synchronization: Implemented shared memory and semaphores.
+}
+\item{
+Memory Management: Virtual memory management by pure demand paging.
+}
+\end{itemize}
+{\bf 8-bit General Purpose Computer}\\
+%\vspace{0.1in}
+\textit{Group Course Project under Prof. Subhajit Roy \hfill Jan-April 2013}
+\vspace{0.1in}
+\begin{itemize}
+\item{
+Implemented 8-bit General Purpose Computer on an FPGA board having a load-store architecture.
+}
+\item{
+The 8 bit instructions can be hard coded in the text segment of the program or manually given by using FPGA.
+}
+\item{
+The Computer can run programs such as calculating factorials ,calculating sum of n numbers and many more.
+}
+\item{
+Selected as One of the Best Project of the Course.
+}
+\end{itemize}
+{\bf Lecture Hall Booking Portal}\\
+\textit{Course Project under Prof. Arnab Bhattacharya\hfill Oct'12}
+\vspace{0.1in}
+\begin{itemize}
+\item{
+Designed an online lecture hall booking portal using HTML,CSS,PHP and MySqL.
+}
+\item{
+It handles clash detections in booking and has event calender to display weeks event.
+}
+\end{itemize}
+{\bf File Transfer Protocol on python}\\
+\textit{Course Project: Computer networks\hfill  November'13}
+\vspace{0.1in}
+\begin{itemize}
+\item{
+Implemented most of the protocols of FTP in python using TCP sockets to communicate.
+}
+\item{
+The program uses threads to entertain multiple users simultaneously.
+}
+\end{itemize}
+{\bf Summer Internship at Chronus Corporations}\\
+\textit{Training Period in Summer's 2014\hfill  May 2014 - June 2014 }
+\vspace{0.1in}
+\begin{itemize}
+\item{
+Made data analysis and visualisation tool for the organisation.Product managers will use the tool to collect actionable insights, various metrics on their product and take decision to introduce new feature, or modify an existing feature,or explore the growth of newly added feature.
+}
+\item{
+Used Ruby on Rails,html,css,javascript,jquery,ajax and mysql technologies in making the tool.
+}
+\end{itemize}
+{\bf Sample Twitter App}\\
+\textit{Training Period in Summer's 2014\hfill  $5^{th}$ May 2014 - $12^{th}$ May 2014 }
+\vspace{0.1in}
+\begin{itemize}
+\item{
+Read the ruby on rails tutorial and followed the tutorial to make a basic twitter application which can be found dwitter.herokuapp.com
+}
+\item{
+Added the feature of Liking microposts, added emoticons using ruby gems.
+}
+\end{itemize}
+{\bf Table Tennis Pygame}\\
+\textit{Course Project under Prof. Arnab Bhattacharya\hfill April'13}
+\vspace{0.1in}
+\begin{itemize}
+\item{
+Implemented a two player Table Tennis game in Python using Pygame module.
+}
+\item{
+Created Random walls which vary with time,different levels which offer different speed of the ball and point system between the two users.
+}
+\end{itemize}
+\end{section}
+
+
+
+
+\begin{section}{\underline{TECHNICAL SKILLS}}
+\begin{itemize}
+\item{
+{\bf Programming Language:}  C,C++,Python,Verilog,Java Basics
+}
+\item{
+{\bf Web Technologies:}  HTML,CSS,PHP,mysql
+}
+\item{
+{\bf Others Tools and Utility:}  Matlab,gnuplot,LaTeX,Lex,Yacc
+}
+\item{
+{\bf Hardware:} Experience with FPGA Boards, Integerated Circuts
+}
+\item{
+{\bf Operating Systems:} Windows, Linux/Unix.
+}
+\end{itemize}
+\end{section}
+
+\begin{section}{\underline{RELEVANT COURSES}}
+\vspace{.1in}
+\begin{tabular}{l l}
+MATHEMATICS I & MATHEMATICS - II \\
+Fundamentals of Computing & Mathematics for Computer Science-II\\
+Data Structure and Algorithms & Mathematics for Computer Science-III\\
+Probability and Statistics  & Complex Variables and Partial Derivative Equation\\
+Computing Laboratory-I & Operating System\\
+Computing Laboratory-II & Theory of Computation\\
+Mathematics for Computer Science-I & Computer Networks\\
+Computer Organisation & *Mathematics for Economics\\
+Compilers & *Computational Geometry \\
+Principles of Database Systems & *Topics in Linear Programming \\
+Advanced Graph Algorithms & *Principles of Programming Language \\
+Algorithms II & Communication Course in Computer Science \\ \\
+
+\end{tabular}
+\\
+$^{*}$ - \textit{Ongoing(to be completed by Nov'14)}
+\end{section}
+
+
+\begin{section}{\underline{CO-CURRICULAR ACTIVITIES}}
+\vspace{.2in}
+\begin{itemize}
+\item{
+Ranked under {\bf top 140 people in the world} in problem solving at {\bf SPOJ} as on $11^{th}$ August 2014.SPOJ (Sphere Online Judge) is an online judge system with over 75,000 registered users  and 2000+ institutions. I have solved more than 385 classical problems on SPOJ.
+}
+\item{
+Added some problems under classical and tutorial section of SPOJ. In Figures, 5 problems under classical section and 3 problems under tutorial section.
+}
+\item{
+Problem Setter for IOPC (International Online Programming Contest) for the year 2014. Set 7 problems for the contest out of which one was unsolved and rest of the problems had accepted submissions equal to 24,16,7,6,2,1. Link for the contest : http://www.codechef.com/IOPC2014/.
+}
+\item{
+Tested problems for IOPC (International Online Programming Contest) for the year 2014.Generated tricky test data for many problems.
+}
+\item{
+Problem Setter,Tester and Editorialist for Hackerrank. Set 11 problems for Hackerrank as on $11^{th}$ August 2014. One of the problem was used in hiring test for hackerrank.
+}
+\item{
+Problem Setter for Codechef. I have set 2 problems as on $11^{th}$ August 2014 , both are HARD problems , one was hosted on Long Challenge of May 2014 and the other was on August Long Challenge 2014.
+}
+\item{
+Editorialist for the July Long Challenge 2014 of codechef.
+}
+\item{
+Set Hard problems for Codechef and Hackerrank.
+}
+\item{
+List of problems set by me and are live can be found here - http://www.spoj.com/problems/INTRO/
+}
+\item{
+Took Lecture Series on Algorithms and Competetive Programming in IIT Kanpur.
+}
+\item{
+Bagged First Prize in Weekend Programming Contest,2012 Organised in IIT Kanpur.
+}
+
+\item{
+Bagged Second Prize in Weekend Programming Contest 1 , First in Weekend Programming Contest 3 and Second in Weekend Programming Contest 5 organised in the year 2013-14 in IIT Kanpur.
+}
+\item{
+Written a technical blog on Binary Indexed Tree which had more than 3000 views as on 3rd April 2014, with an average of 15-20 views per day. Link for the blog is http://bitdevu.blogspot.in/
+}
+\item{
+Achieved Rank 19 in International Online Programming Contest(IOPC),2013 organised by IIT Kanpur at codechef.
+}
+\item{
+Organised Competetive Programming Contests in IIT Kanpur.
+}
+\end{itemize}
+\end{section}
+\begin{section}{\underline{POSITION OF RESPONSIBILITY}}
+\vspace{.2in}
+Secretary, Programming Club, IIT Kanpur for the year 2012-13.
+\vspace{.1in}
+\begin{itemize}
+\item{
+Organised Workshops for the new coming students in IIT Kanpur to provide exposure to competetive programming and enhance Programming culture in IITK community.
+}
+\item{
+Coordinated with Dean of Student Affairs Office Personnel to conduct over the year activites of Programming Club.
+}
+\end{itemize}
+Coordinator of IOPC (International Online Programming Contest) and Software Corner for Techkriti 2014
+\vspace{.1in}
+\begin{itemize}
+\item{
+Set up the problems for the IOPC, the annual programming contest during Techkriti. Link for the contest is http://www.codechef.com/IOPC2014
+}
+\item{
+Designed the problems for Chaos, Unknown Language Programming Contest.
+}
+\end{itemize}
+\end{section}
+\end{resume} 
+\end{document}
+

@@ -1,0 +1,10 @@
+best=0
+for i = N to 1 (where N is the total number of coordinates)
+	myval = number of intervals intersecting i
+ 	rightval = max value over segtree nodes from i+1 to N
+ 	best = max (best,myval+rightval)
+
+	for all intervals (l,r) with l=1
+   		increment segtree interval l…r by 1
+	end
+end
